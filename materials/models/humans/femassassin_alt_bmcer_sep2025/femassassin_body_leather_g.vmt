@@ -1,0 +1,51 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\femassassin_alt_bmcer_sep2025/femassassin_body_g"
+	"$bumpmap" "models/humans\femassassin_bmcer_sep2025/femassassin_body_N"
+	"$surfaceprop" "flesh"
+
+	"$nodecal" "0"
+	"$multipass" 1
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.11 .11 .11]"
+
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+	"$phongwarptexture"  "models/humans/femassassin_bmcer_sep2025/fem_iridescence"
+
+	// Rim lighting parameters
+	"$rimlight" "0"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.5"
+
+	"$cloakpassenabled" "1"
+//	"$cloakfactor" "0.99"
+	"$refractamount" "0.1"
+
+	// "$blendtintbybasealpha" "1" // alpha channel of $basetexture: color mask.
+ 	// "$blendtintcoloroverbase" "0" // blend mode. anything =/= 0 is ugly!
+
+	// "$color2" "{152 122 152}" // Black
+
+	"Proxies"
+	{
+		"AssassinCloak"
+		{
+			"resultVar" "$refractamount"
+		}
+
+		"AssassinCloak"
+		{
+			"resultVar" "$refractamount"
+		}
+	}
+
+}
+
+
+

@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/marines_bmcer_sep2025/marine_gloves_d" // fucking square fingers
+	$bumpmap "models/humans/marines_bmcer_sep2025/marine_gloves_n"       
+	$surfaceprop Flesh
+
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.05 0.5 1]"
+	$phongalbedotint 1
+	$phongexponent 5
+	$phongboost 1.2
+	$phongalbedoboost 1.02
+
+	$rimlight 1
+	$rimlightexponent 25
+	$rimlightboost 0.07
+
+	$nodecal 1
+
+	$model 1
+	$multipass 0
+
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

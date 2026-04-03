@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/weapon_gibs/357_loader_low"
+
+	$nocull 1
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.50 0.50 0.50]"
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.65 1]"
+	$phongtint "[0.70 0.70 0.70]"
+	$phongalbedotint 1
+	$phongexponent 10
+	$phongboost 5
+
+	$rimlight 1
+	$rimlightexponent 150
+	$rimlightboost 2
+
+	$model 1
+}

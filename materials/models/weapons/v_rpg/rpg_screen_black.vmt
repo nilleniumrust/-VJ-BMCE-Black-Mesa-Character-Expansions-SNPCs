@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/v_rpg/rpg_screen_black"
+
+	$model 1
+}

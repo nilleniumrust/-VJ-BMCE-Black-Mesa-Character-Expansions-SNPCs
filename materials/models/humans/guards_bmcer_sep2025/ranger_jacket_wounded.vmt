@@ -1,0 +1,28 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models\humans\guards_bmcer_sep2025/ranger_jacket_d_wounded
+	$bumpmap models\humans\guards_bmcer_sep2025/ranger_jacket_b
+	$lightwarptexture dev/identitylightwarp
+	
+	$halflambert 1
+	$ambientocclusion 1
+	$nocull 1
+
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 6
+	$detailblendfactor 0.6
+	$detailblendmode 0
+
+    $phong 1
+    $phongexponent 5
+    $phongboost 1.5
+    $phongfresnelranges "[.4 .8 30]"
+	
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	//3               // Boost for ambient cube component of rim lighting
+
+}

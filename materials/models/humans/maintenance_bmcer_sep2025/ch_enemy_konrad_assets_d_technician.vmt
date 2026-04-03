@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/maintenance_bmcer_sep2025/CH_ENEMY_KONRAD_ASSETS_D_technician"
+	"$bumpmap" "models/humans/maintenance_bmcer_sep2025/ch_enemy_konrad_assets_n"
+        "$lightwarptexture" 	"models/humans/marines_bmcer_sep2025/Clothes_wrp"
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "4"
+//	"$phongalbedotint" "1"
+	"$phongboost" ".5"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+
+}

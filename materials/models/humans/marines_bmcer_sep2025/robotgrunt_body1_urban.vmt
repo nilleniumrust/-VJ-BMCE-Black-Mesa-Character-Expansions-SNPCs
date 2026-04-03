@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/humans/marines_bmcer_sep2025/robotgrunt_body1_urban"
+	"$bumpmap" "models/humans/marines_bmcer_sep2025/robotgrunt_body1_normal"
+			   
+			   
+	$detail "detail/bm_rustymetal_detail_01"
+	$detailscale 5
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.025 0.025 0.025]"
+
+	$phong 1
+	$phongboost .5
+	$phongfresnelranges "[0.4 0.8 30]"
+	$halflambert 1
+	$phongexponent 7
+
+	$rimlight 1
+	$rimlightexponent 35
+	$rimlightboost 0.2
+}
+

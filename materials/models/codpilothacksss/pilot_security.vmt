@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\CODpilothacksss/pilot_security"
+	"$bumpmap" "models\CODpilothacksss/pilot_normal"
+	"$nocull" 0
+	"$phong" "1"
+	"$phongexponent" "5" //8
+	"$phongboost" ".05"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "0"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".1"	
+	
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 3.25
+	$detailblendfactor 0.5
+	$detailblendmode 0
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/bombero_bmcer_sep2025/helmet_chief"
+	"$bumpmap" "models/humans/bombero_bmcer_sep2025/helmet_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "plastic"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

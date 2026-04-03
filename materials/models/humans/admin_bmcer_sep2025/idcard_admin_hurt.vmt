@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/admin_bmcer_sep2025/idcard_admin_hurt"
+    "$bumpmap"	   "models/humans/scientists_bmcer_sep2025/idcard_sci_fem_ihatemateriallimit_n"
+ 	"$model" "1"
+		$BASEMAPLUMINANCEPHONGMASK 1
+        $phong 1
+        $phongexponent 7
+        $phongboost .25
+        $halflambert 0
+        $phongtint "[1 1 1]"
+        $phongfresnelranges "[.4 .8 30]"
+		"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".4"	               // Boost for ambient cube component of rim lighting
+		
+	"$envmap" 						"env_cubemap"
+	"$envmaptint" 					"[.4 .4 .4]" 
+	"$normalmapalphaenvmapmask" "1"
+}

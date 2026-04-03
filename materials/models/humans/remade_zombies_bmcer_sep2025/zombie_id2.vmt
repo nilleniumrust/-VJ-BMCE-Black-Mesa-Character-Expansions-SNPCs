@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans/remade_zombies_bmcer_sep2025/zombie_id2"
+
+//	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

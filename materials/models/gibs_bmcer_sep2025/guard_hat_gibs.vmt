@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\gibs_bmcer_sep2025\guard_hat_gibs"
+	"$model" "1"
+	"$surfaceprop" "flesh"
+	"$nocull" 1
+
+
+}

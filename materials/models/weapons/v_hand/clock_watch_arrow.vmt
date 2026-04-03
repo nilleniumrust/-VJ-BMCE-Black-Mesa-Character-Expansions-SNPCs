@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_hand\clock_watch_arrow"
+	"$alphatest" 1
+	"%keywords" "bms"
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	"Proxies"
+    {
+    "AnimatedTexture"
+                      {
+                      "animatedTextureVar" "$basetexture"
+                      "animatedTextureFrameNumVar" "$frame"
+                      "animatedTextureFrameRate" "0.8"
+                      }
+    }
+	
+}

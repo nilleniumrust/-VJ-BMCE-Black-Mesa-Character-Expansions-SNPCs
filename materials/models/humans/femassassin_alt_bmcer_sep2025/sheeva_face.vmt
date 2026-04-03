@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/femassassin_alt_bmcer_sep2025/sheeva_face"
+
+
+	"$halflambert" 1
+	
+	"$detail" "models\humans\base_male_bmcer_sep2025\skin"
+	"$detailscale"        "6"
+	"$detailblendfactor"  ".4"
+	"$detailblendmode"    "0"
+
+	"$cloakpassenabled" "1"
+	"$refractamount" "1"
+
+	"Proxies"
+	{
+		"AssassinCloak"
+		{
+			"resultVar" "$cloakfactor"
+		}
+
+		"AssassinCloak"
+		{
+			"resultVar" "$refractamount"
+		}
+	}
+}

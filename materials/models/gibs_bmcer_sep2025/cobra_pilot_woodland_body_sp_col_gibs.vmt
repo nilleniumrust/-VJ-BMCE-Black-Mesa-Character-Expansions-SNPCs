@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gibs_bmcer_sep2025/cobra_pilot_woodland_body_sp_col_gibs"
+
+        "$bumpmap" "models/CODpilothacksss/cobra_pilot_normal"
+	$nocull 1
+}

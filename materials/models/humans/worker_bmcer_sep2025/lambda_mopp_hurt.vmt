@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans/worker_bmcer_sep2025/lambda_mopp_hurt"
+	"$bumpmap" "models/humans/worker_bmcer_sep2025/lambda_mopp_n"
+$phong "1"
+$phongexponent "7"
+$phongboost "0.05"
+$phongfresnelranges  "[1 1 30]"
+$phongalbedotint "1"
+
+$rimlight "1"
+$rimlightexponent "7"
+$rimlightboost ".1"
+
+	$nodecal "1"
+	$nocull 1
+}

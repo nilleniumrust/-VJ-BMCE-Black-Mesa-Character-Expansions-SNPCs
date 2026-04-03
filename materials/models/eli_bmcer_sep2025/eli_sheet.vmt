@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\eli_bmcer_sep2025\eli_sheet"
+	"$alphatest" 1
+	"$bumpmap" "models\eli_bmcer_sep2025\eli_neck_normal.vtf"
+	"$lightwarptexture" "models/humans/base_male_bmcer_sep2025/Base_M_african_wrp.vtf"
+	"$halflambert" 1
+		"$nodecal" "1"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponenttexture" "models/kleiner_bmcer_sep2025/kleiner_bm_exponent.vtf"
+        "$phongtint" "[.85 .85 1]"
+	"$phongboost"	"0.13"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	               // Boost for ambient cube component of rim lighting
+	
+    "$model" 1
+
+	"$detail" "models\humans\base_male_bmcer_sep2025\skin"
+	"$detailscale"        "8"
+	"$detailblendfactor"  ".55"
+	"$detailblendmode"    "0"
+}

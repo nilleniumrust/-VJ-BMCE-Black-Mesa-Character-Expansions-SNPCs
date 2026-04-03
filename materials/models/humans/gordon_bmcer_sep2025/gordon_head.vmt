@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\gordon_bmcer_sep2025/gordon_head"
+	"$bumpmap" "models\humans\gordon_bmcer_sep2025/gordon_head_normal"
+        "$lightwarptexture" "models\humans\base_male_bmcer_sep2025\Base_M_caucasian_wrp"
+//        "$lightwarptexture" "models\humans\base_male_bmcer_sep2025\Base_M_african_wrp"
+        $halflambert 0
+	"$nodecal" "1"
+	"$model" "1"
+	"$surfaceprop" "flesh"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongboost "1.4"
+	$phongexponenttexture "models/humans/male_exponent"
+        $phongtint "[.85 .85 1]"
+        $phongfresnelranges "[.2 .5 5]"
+}

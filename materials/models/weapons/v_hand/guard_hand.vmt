@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_hand\guard_hand" 
+	"$bumpmap" "models\weapons\v_hand\guard_hand_n"
+	
+
+
+	"$nodecal" "1"
+	"$multipass" 0
+	
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" "0.07"
+	"$phongfresnelranges"	"[.4 .8 4]"
+	"$phongalbedotint" "1"
+
+//  Rim lighting parameters
+
+	
+//	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+
+	$viewmodelhands 1
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

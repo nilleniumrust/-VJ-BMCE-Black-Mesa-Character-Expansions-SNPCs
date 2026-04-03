@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	//make any regular vmt changes here
+	"$baseTexture" "models/humans/marines_bmcer_sep2025/hd_beret_black_03"
+	"$bumpmap" "models/humans/guards_bmcer_sep2025/chief_sec_beret_normal"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "9"
+	"$phongtint" "[.85 .85 1]"
+	"$phongfresnelranges" "[.3 3 30]"
+	
+	"$detail" "detail/dt_carpet1"
+	"$detailscale"	"16"
+	//"$detailblendmode" "7"
+	"$detailblendfactor" "0.9"
+}

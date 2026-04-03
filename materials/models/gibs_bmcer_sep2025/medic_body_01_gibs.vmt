@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gibs_bmcer_sep2025/medic_body_01_gibs"
+	"$bumpmap" "models/humans/medic_bmcer_sep2025/medic_body_normal"
+	"$surfaceprop" "flesh"
+	"$model" 1
+	"$nocull" 1
+
+	"$phong" "1"
+	"$phongexponent" "5" //20
+	"$phongboost" "0.05"	 //.1
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$halflambert" "1"
+        "$lightwarptexture" 	"models\ninja_bmcer_sep2025/L4D2/Clothes_wrp"
+		"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp"
+
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "20"							
+	"$rimlightboost" "0.1"
+	
+	$detail "models/humans/guards_bmcer_sep2025/clothes"
+	$detailscale "[6 3]"
+	$detailblendfactor 0.4
+}

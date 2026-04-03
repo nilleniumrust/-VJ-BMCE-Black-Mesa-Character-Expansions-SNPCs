@@ -1,0 +1,24 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models\humans\admin_bmcer_sep2025/admin_items
+	$bumpmap models\humans\admin_bmcer_sep2025/admin_items_n //dev/bump_normal
+//$lightwarptexture dev/identitylightwarp
+
+	$nocull 1
+	$alphatest 1
+	$halflambert 1
+	$ambientocclusion 1
+
+	$phong 1
+	$phongboost 2.5
+	$phongfresnelranges "[.4 .8 30]" //"[ 0.01 ]"
+	$phongexponent 50
+	$phongalbedotint 1
+
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.5 .5 .5]"
+}

@@ -1,0 +1,31 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/w_glock/w_glock"
+	$bumpmap "models/weapons/w_glock/w_glock_nm"
+
+	$nocull 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.50 0.50 0.50]"
+	$envmapcontrast 0.25
+	$envmapsaturation 0.80
+
+	$phong 1
+	$phongfresnelranges "[0.85 1 1]"
+	$phongtint "[0.15 0.15 0.15]"
+	$phongalbedotint 1
+	$phongexponent 75
+	$phongboost 5
+	$phongalbedoboost 0.8
+
+	$rimlight 1
+	$rimlightexponent 25
+	$rimlightboost 0.14
+
+	$selfillum 1
+
+	$model 1
+	$tinta "[5 3 1]"
+	$tintb "[.15 .15 .15]"
+}

@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models/humans/femassassin_alt_bmcer_sep2025/black_ops_grenades"
+	 "$bumpmap" 			"effects/flat_normal"
+
+$phong 1
+$phongexponent 5
+$phongboost .5
+$phongfresnelranges "[0.2 0.5 1.0]"
+}

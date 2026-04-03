@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/world_models/w_crossbow_bolt"
+	"$bumpmap" "models\world_models\w_satchel_n" //phong does't work without a normal map
+	
+	"$selfillum" "1"
+	//"$selfillummask" "models\v_glock/v_glock"
+	"$selfillumtint" "[1 1 1]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[.25 5 11]"
+	
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 1 1]"
+	"$phongtint" "[1 1 1]"
+  	"$rimlight"               "1"
+	"$rimlightexponent"       "25"
+	"$rimlightboost"          "1"
+    "$model" 1
+
+}

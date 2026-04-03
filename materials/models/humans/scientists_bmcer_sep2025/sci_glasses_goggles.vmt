@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/scientists_bmcer_sep2025/sci_glasses_goggles"
+	"$bumpmap" "models/humans/scientists_bmcer_sep2025/sci_glasses_goggles_n"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmaptint" 					"[.1 .1 .1]" 
+           "$nocull" "1"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongboost"	"5"
+        $phongexponent 30
+//	"$phongfresnelranges"	"[0.05 0.5 1]"
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" "1"	               // Boost for ambient cube component of rim lighting
+
+    "$model" 1
+
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 2
+        $detailblendfactor 0.75
+        $detailblendmode 0
+}

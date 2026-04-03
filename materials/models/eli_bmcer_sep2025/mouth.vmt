@@ -1,0 +1,7 @@
+"Teeth"
+{
+	"$basetexture" "models/eli_bmcer_sep2025/mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

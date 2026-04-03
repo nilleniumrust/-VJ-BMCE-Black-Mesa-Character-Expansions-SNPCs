@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/breen_bmcer_sep2025/arms"
+	"$bumpmap" "models/breen_bmcer_sep2025/arms_normal"
+
+	"$color2"	"[1.5 1.1 1]"
+}

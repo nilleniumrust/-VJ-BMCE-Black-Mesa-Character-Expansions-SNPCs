@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\worker_bmcer_sep2025/fem_office_worker_05"
+	"$bumpmap" "models\humans\worker_bmcer_sep2025/fem_office_worker_n"
+	"$surfaceprop" "flesh"
+	"$nocull" "1"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongexponent 7
+        $phongboost 2.5
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	               // Boost for ambient cube component of rim lighting
+
+
+//	$detail "decals/bms_bloodsplatterFloor_001.vtf"
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 4
+	$detailblendfactor 0.6
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

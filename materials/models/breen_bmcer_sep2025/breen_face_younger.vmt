@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models\breen_bmcer_sep2025\breen_face_y"
+	$bumpmap	"models\breen_bmcer_sep2025\breen_face_y_normal"
+
+	$phong	1
+	$phongboost	"1"
+	$phongexponent	"8"
+	$phongtint	"[.85 .85 1]"
+	$phongfresnelranges	"[.2 .5 5]"
+
+	$nodecal	1
+	//$ambientocclusion	1
+	$halflambert	0
+
+	//$detail "models\Characters\bastards\shared\details\skin"
+	$detailscale 12
+	$detailblendfactor	1
+	$detailblendmode	0
+
+	$diffuseexp	"1.5"
+//	$lightwarptexture	"models\Characters\bastards\shared\facemap_wrp"
+}

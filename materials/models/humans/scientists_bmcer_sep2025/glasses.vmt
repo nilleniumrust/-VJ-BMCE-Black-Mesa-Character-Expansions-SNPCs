@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/scientists_bmcer_sep2025/glasses"
+	"$bumpmap" "models/humans/scientists_bmcer_sep2025/glasses_normal"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" "1"
+
+
+	$halflambert 1
+	//$nodecal 1
+	$model 1
+
+	$phong 1
+	//$phongexponent 33
+	$phongexponenttexture "models/humans/scientists_bmcer_sep2025/glasses_ref"
+	$phongboost	10
+	$phongfresnelranges	"[0.05 0.5 1]"
+}

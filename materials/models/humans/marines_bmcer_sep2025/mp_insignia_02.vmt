@@ -1,0 +1,31 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models\humans\marines_bmcer_sep2025/mp_insignia_02
+	"$bumpmap" "models/humans/marines_bmcer_sep2025/mp_insignia_n"
+	
+	$nocull 1
+//	$translucent 1
+	$alphatest 1
+	$halflambert 1
+	$ambientocclusion 1
+
+	"$phong" "1"						
+	"$phongboost" "1"
+	"$phongexponent" "50"						
+	"$phongfresnelranges"	"[ .2 1 3]"	
+
+	"$halflambert" "0"
+	"$PhongAlbedoTint" "1"		
+	"$normalMapEnvMapMask" 1	
+	
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale "[ 4 2 ]"
+        $detailblendfactor 1
+        $detailblendmode 0
+		
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.05 .05 .05]"
+}

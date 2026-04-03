@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/Gman_bmcer_sep2025/gman_briefcase"
+	"$bumpmap" "effects/flat_normal"
+    "$model" 1
+"$nodecal" "1"
+
+
+        $phong 1
+        $phongexponent 7
+        $phongboost 2.5
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+		
+$envmap	env_cubemap
+"$envmaptint" "[2.01 1.60 .44]"
+	"$envmapfalloff" "1"
+}

@@ -1,0 +1,71 @@
+Vertexlitgeneric
+{
+	$basetexture "models/weapons/v_rpg/rpg_screen3"
+	$selfillummask  models\weapons\v_rpg\rpg_screen_alphamask
+
+	$selfillum 1
+
+	$jumpchance 0.025
+	$jumpchancethreshold 0.99
+	$jumpdistance 0.25
+	$model 1
+	$nojump 0.0
+	$scale2 "[0 0]"
+	$translate1 "[0.0 0.0]"
+	$translate2 "[0.0 0.0]"
+
+	Proxies
+	{
+		GaussianNoise
+		{
+			mean 0.5
+			halfWidth 0.2
+			minVal 0.0
+			maxVal 1.0
+			resultVar "$jumpchance"
+		}
+
+		GaussianNoise
+		{
+			mean 0
+			halfWidth 0.05
+			minVal -0.1
+			maxVal 0.25
+			resultVar "$jumpdistance"
+		}
+
+		LessOrEqual
+		{
+			srcVar1 "$jumpchance"
+			srcVar2 "$jumpchancethreshold"
+			lessEqualVar "$nojump"
+			greaterVar "$jumpdistance"
+			resultVar "$translate1[1]"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate1"
+			resultVar "$basetexturetransform"
+			TextureTransform
+			{
+				translateVar "$translate2"
+				resultVar "$texture2transform"
+			}
+		}
+
+		UniformNoise
+		{
+			minVal 0.5
+			maxVal 2.0
+			resultVar "$translate2[0]"
+		}
+
+		UniformNoise
+		{
+			minVal 0.5
+			maxVal 2.0
+			resultVar "$translate2[1]"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/Lenoax_bmcer_sep2025/Gman/Gman_WhiteHair_Diff"
+	"$bumpmap" 		"models/Lenoax_bmcer_sep2025/Gman/Gman_Hair_Normal"
+	//"$lightwarptexture" 	"models/Lenoax_bmcer_sep2025/Gman/base_m_caucasian_wrp"
+
+	"$AmbientOcclusion" "0"
+
+	"$phong" "1"
+	"$phongalbedotint" "1"
+	"$phongexponent" "2"
+        "$phongboost"	"0"
+	"$phongfresnelranges"	"[1 2 4]"
+	"$halflambert" "1"
+
+	"$translucent" "1"
+//	"$alphatest" "1"
+
+	"$nocull" "1"
+	"$nodecal" "1"
+
+}

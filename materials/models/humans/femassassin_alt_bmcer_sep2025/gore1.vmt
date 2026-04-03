@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+$basetexture "models\humans\femassassin_alt_bmcer_sep2025/gore1"
+$bumpmap "models\humans\femassassin_alt_bmcer_sep2025/gore1_normal"
+$color2 "[.75 .75 .75]"
+$phong 1
+$phongexponent 70
+$phongboost 5
+$phongfresnelranges "[0.2 0.5 1.0]"
+$diffuseexp "1.0"
+$allowdiffusemodulation 1
+}

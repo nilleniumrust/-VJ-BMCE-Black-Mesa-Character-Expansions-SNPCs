@@ -1,0 +1,29 @@
+
+vertexlitgeneric
+{
+	$basetexture models\humans\admin_bmcer_sep2025/admin_suit_04
+	$bumpmap models\humans\admin_bmcer_sep2025/admin_suit_normal
+	"$surfaceprop" "flesh"
+
+	"$lightwarptexture" 	"models/humans/admin_bmcer_sep2025/bodyguard_lightwarp"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongexponent 7
+        $phongboost 1
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+		
+
+		
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	               // Boost for ambient cube component of rim lighting
+
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale "[ 6 3 ]"
+	$detailblendfactor 0.8
+	$detailblendmode 0
+}

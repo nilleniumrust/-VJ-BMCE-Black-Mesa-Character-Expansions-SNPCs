@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/gibs_bmcer_sep2025/Cloth_gib"
+	"$bumpmap" "models/humans/scientists_bmcer_sep2025/Cloth Normal"
+	$lightwarptexture dev/identitylightwarp
+	
+	$halflambert 1
+	$ambientocclusion 1
+	$nocull 1
+
+	"$detail" "models\ninja_bmcer_sep2025/L4D2/wool_detail"
+	$detailscale 10
+	$detailblendfactor 0.5
+	$detailblendmode 0
+
+	$color2 "[ 1 1 1 ]"
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2
+			resultVar $color2 // The shader parameter to be manipulated
+
+		}
+
+	}
+
+}

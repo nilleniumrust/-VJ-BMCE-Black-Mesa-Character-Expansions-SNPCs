@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\admin_bmcer_sep2025/admin_ties_01"
+	"$bumpmap" "models\humans\worker_bmcer_sep2025/tie_normal"
+	"$surfaceprop" "flesh"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongexponent 25 //7
+        $phongboost 2 //.03
+ //       $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+	"$phongalbedotint" "1"		
+	"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp_tie"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	               // Boost for ambient cube component of rim lighting
+
+	"$detail" "models\ninja_bmcer_sep2025/L4D2/clothes_detail"
+	"$detailscale" 2
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+
+	"$surfaceprop" "default"
+	"$basetexture" "models\humans\marines_bmcer_sep2025\rg_body_gib"
+	"$bumpmap" "models\humans\marines_bmcer_sep2025\rg_body_n"
+	"$Phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[.1 .5 1]"
+	"$phongexponentTexture" "models\humans\marines_bmcer_sep2025\rg_body_spec"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.01 .01 .01]"
+	
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 7
+        $detailblendfactor 1
+        $detailblendmode 0
+}

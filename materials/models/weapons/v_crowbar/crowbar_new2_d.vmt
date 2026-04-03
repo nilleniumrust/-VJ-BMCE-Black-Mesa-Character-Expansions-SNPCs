@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/v_crowbar/crowbar_new2_d"
+	$bumpmap "models/weapons/v_crowbar/crowbar_new2_n"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.02 .02 .02]"
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	$phong 1
+	$phongfresnelranges "[1.5 4.5 8]"
+	$phongtint "[0.93 0.93 0.93]"
+	$phongexponent 65
+	$phongboost 1.1
+	$phongalbedoboost 1.5
+
+	$rimlight 1
+	$rimlightexponent 25
+	$rimlightboost 0.23
+
+	$model 1
+
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

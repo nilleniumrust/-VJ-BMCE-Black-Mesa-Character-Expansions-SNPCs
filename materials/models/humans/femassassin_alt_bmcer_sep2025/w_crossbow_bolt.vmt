@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/world_models/w_crossbow_bolt"
+	"$bumpmap" "models\world_models/w_crossbow_bolt_nm"
+       	"$envmap" "env_cubemap"
+       	"$envmaptint" "[1 1 1]"
+    	"$normalmapalphaenvmapmask" "1"
+	"$selfillum" "1"
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "50"
+
+"$phongboost" "1"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+
+"$rimlight" "1"
+"$rimlightexponent" "10"
+"$rimlightboost" "1"
+    "$model" 1
+
+	"$cloakpassenabled" "1"
+	"$refractamount" "1"
+
+	"Proxies"
+	{
+		"AssassinCloak"
+		{
+			"resultVar" "$cloakfactor"
+		}
+
+		"AssassinCloak"
+		{
+			"resultVar" "$refractamount"
+		}
+	}
+}

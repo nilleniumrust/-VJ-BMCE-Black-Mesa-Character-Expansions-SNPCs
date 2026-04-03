@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\humans\hev_nametags_bmcer_sep2025\hev_nametag12_sunabouzu"
+	"$bumpmap"     "effects/flat_normal"
+	"$surfaceprop" "metal"
+	"$model" "1"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	
+	"$phong" "1"
+	"$phongboost" ".25" //2
+	"$phongexponent" "100" //20
+	"$phongfresnelranges" 		"[1 3 6]"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "7"
+	"$rimlightboost" "2" //.05
+}

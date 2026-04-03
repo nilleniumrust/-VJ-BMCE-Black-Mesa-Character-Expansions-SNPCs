@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\suits_bmcer_sep2025/suit_sheet"
+	"$bumpmap" "models\humans\suits_bmcer_sep2025/suit_sheet_nml"
+        "$nocull" "1"
+}

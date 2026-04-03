@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/humans/bombero_bmcer_sep2025/fireman_body2_hurt"
+	"$bumpmap" "models/humans/bombero_bmcer_sep2025/fireman_body2_hurt_n"
+	"$surfaceprop" "flesh"
+
+	"$model" "1"
+	"$phong"     "1"
+	"$phongexponent"   "15" //20
+	"$phongboost"   "5" //20
+	"$phongfresnelranges"	"[.5 1 11]"
+	"$phongalbedotint" "1"
+
+}

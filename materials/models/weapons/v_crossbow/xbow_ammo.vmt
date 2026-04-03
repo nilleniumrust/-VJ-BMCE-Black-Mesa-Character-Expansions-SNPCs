@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	$basetexture		"models/weapons/v_crossbow/xbow_ammo_albedo"
+	$bumpmap			"models/weapons/v_crossbow/xbow_ammo_bump"
+
+	$envmap						"env_cubemap"
+	$envmaptint					"[5 5 5]"
+	$envmapcontrast				1.0
+	$normalmapalphaenvmapmask		1
+
+	$detail			"models/weapons/v_crossbow/xbow_ammo_emission"
+	$detailscale	1
+	$detailblendmode 5
+	$detailblendfactor 1.5
+
+	$phong 1
+	$phongexponenttexture		"models/weapons/v_crossbow/xbow_ammo_phongexp"
+	$phongboost					5.0
+	$phongfresnelranges			"[0.1 0.8 1.0]"
+}

@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/guards_bmcer_sep2025/security_body_hurt"
+	"$bumpmap" "models/humans/guards_bmcer_sep2025/security_body_n"
+//	"$phongexponenttexture" "models/humans/guards_bmcer_sep2025/uppr_spec_000"
+	"$surfaceprop" "flesh"
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "5"	//0.05
+	"$phongfresnelranges"	"[.1 0.2 1]"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp"
+	"$halflambert" "1"
+
+
+	"$rimlight" "1"										
+	"$rimlightexponent" "20"							
+	"$rimlightboost" "0.1"
+	
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 2
+	$detailblendfactor .5
+	$detailblendmode 0
+}

@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\world_models\w_satchel"
+	"$bumpmap"	"models\world_models\w_satchel_n"
+
+	"$phong" "1"
+	"$phongboost" "0.5"
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[0.1 5 1]"
+	
+	"$model" 1
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"
+	"$rimlightboost" "0.6"
+	
+	"$sheenPassEnabled" "1"
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+	
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"160"
+		}
+	}
+}

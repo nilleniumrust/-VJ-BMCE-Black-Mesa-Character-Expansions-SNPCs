@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\marines_bmcer_sep2025/militantgear_doe"
+	"$bumpmap" "models\humans\marines_bmcer_sep2025/militantgear_normal"
+	
+	"$model" 1
+
+	"$detail" "models\ninja_bmcer_sep2025/L4D2/clothes_detail"
+	"$detailscale" "[1.5 3]"
+	"$detailblendfactor" .5
+	"$detailblendmode" 0
+}

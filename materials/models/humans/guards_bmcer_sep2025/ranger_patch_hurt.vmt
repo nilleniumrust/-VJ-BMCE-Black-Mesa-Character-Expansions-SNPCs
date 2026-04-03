@@ -1,0 +1,39 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models\humans\guards_bmcer_sep2025/ranger_patch_hurt
+	$bumpmap models\humans\guards_bmcer_sep2025/ranger_patch_d_normal //dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	$nocull 0
+	$translucent 1
+	$halflambert 1
+	$ambientocclusion 1
+
+	$phong 1
+	$phongboost 2.5
+	$phongfresnelranges "[.4 .8 30]" //"[ 0.01 ]"
+	$phongexponent 20
+	$phongalbedotint 1
+
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 6
+	$detailblendfactor 0.9
+	$detailblendmode 0
+
+	$color2 "[ 1 1 1 ]"
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2
+			resultVar $color2 // The shader parameter to be manipulated
+
+		}
+
+	}
+
+}

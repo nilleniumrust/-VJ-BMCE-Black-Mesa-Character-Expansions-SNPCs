@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/humans/scientists_bmcer_sep2025/sci_body_conceptart_hurt"
+    "$bumpmap"	   "models/humans/scientists_bmcer_sep2025/sci_body_conceptart_normal"
+ 	"$model" "1"
+		$BASEMAPLUMINANCEPHONGMASK 1
+        $phong 1
+        $phongexponent 7
+        $phongboost 30 //2.5
+        $halflambert 0
+//        $phongtint "[1 1 1]"
+        $phongfresnelranges "[.4 .8 30]"
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp"
+		
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale "[4 8]"
+        $detailblendfactor 0.25
+        $detailblendmode 0
+}
+

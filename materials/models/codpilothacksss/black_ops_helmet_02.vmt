@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\codpilothacksss/black_ops_helmet_02"
+	"$bumpmap" "models\codpilothacksss/black_ops_helmet_02_n"
+	"$nocull" 1
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost" ".8"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+}

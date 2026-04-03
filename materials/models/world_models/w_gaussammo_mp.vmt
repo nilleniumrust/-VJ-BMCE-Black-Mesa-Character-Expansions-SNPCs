@@ -1,0 +1,40 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\world_models\w_gaussammo"
+	"$bumpmap" "models\world_models\w_gaussammo_normal"
+
+    	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.10 0.10 0.10]"
+    	"$normalmapalphaenvmapmask" "1"
+	"$selfillum" "1"
+	"$selfillumtint" "[.022 .022 .022]"
+	"$selfillummask" "models\world_models\w_gaussammo_selfillum"
+
+	"$phong" "1"
+	"$phongboost" "3"
+	"$phongexponent" "35"
+	"$phongfresnelranges" "[0.3 2 5]"
+	
+	"$model" 1
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "1"
+
+	"$sheenPassEnabled" "1"
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+	
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"160"
+		}
+	}
+}

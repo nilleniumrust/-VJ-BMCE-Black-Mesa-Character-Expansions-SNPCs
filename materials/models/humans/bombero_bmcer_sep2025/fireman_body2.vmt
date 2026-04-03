@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/humans/bombero_bmcer_sep2025/fireman_body2"
+	"$bumpmap" "models/humans/bombero_bmcer_sep2025/fireman_body2_n"
+	"$surfaceprop" "flesh"
+
+	"$model" "1"
+	"$phong"     "1"
+	"$phongexponent"   "15" //20
+	"$phongboost"   "5" //20
+	"$phongfresnelranges"	"[.5 1 11]"
+	"$phongalbedotint" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]" //.2 .2 .2
+	"$normalmapalphaenvmapmask" "1"
+
+}

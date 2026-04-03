@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/invisible_material/invisible_material"
+	
+	$alphatest 1
+	
+	"$nodecal" "1"
+}

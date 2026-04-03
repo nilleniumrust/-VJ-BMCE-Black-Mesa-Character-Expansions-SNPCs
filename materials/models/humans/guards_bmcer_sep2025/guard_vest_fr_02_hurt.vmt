@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\guards_bmcer_sep2025/guard_vest_fr_02_hurt"
+	"$bumpmap" "models\humans\guards_bmcer_sep2025/guard_vest_fr_02_n"
+	"$surfaceprop" "flesh"
+	
+	$nocull 1
+
+        "$phong" "1"
+	"$phongboost" ".25"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.4 2 1]"
+//phongexponent added due to lightning issues in the recent update, check later if this can be removed	
+	"$phongexponent" "2" //20
+
+//	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+	
+	"$model" 1
+	
+}

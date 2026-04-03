@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\admin_bmcer_sep2025/suit_sheet2"
+	"$bumpmap" "models\humans\admin_bmcer_sep2025/suit_sheet_nml"
+        "$nocull" "1"
+		
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale "[5 10]"
+	$detailblendfactor 0.4
+	$detailblendmode 0
+	
+        $phong 1
+        $phongexponent 7
+        $phongboost .25
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+		
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".01"	//3               // Boost for ambient cube component of rim lighting
+}

@@ -1,0 +1,38 @@
+//I tried to make it look's like original texture. LOLOLO!
+"VertexLitGeneric"
+{
+	"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "models\weapons\v_shotgun/hd_pack_stock_love"
+	"$bumpmap" "models\weapons\v_shotgun\hd_pack_stock_love_normal"
+	
+	"$model" 1
+
+//metal
+	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.03 .03 .03]"
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[0.4 0.8 1.9]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" "0.125"
+
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+
+//	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

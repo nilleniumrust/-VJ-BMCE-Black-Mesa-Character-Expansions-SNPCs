@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/v_hand/clock_watch_glass_broken"
+
+	$translucent 1
+
+	$envmap "env_cubemap"
+	$envmaptint 0.4 0.4 0.4
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	$model 1
+}

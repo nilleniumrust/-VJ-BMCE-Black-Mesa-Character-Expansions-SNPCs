@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/maintenance_bmcer_sep2025/worker_equipment"
+	$bumpmap "models/humans/maintenance_bmcer_sep2025/worker_equipment_n"
+	$surfaceprop Metal
+
+	$detail "detail/bm_metal_detail_01"
+	$detailscale 16
+	$detailblendfactor 0.7
+
+	$nocull 1
+
+	$phong 1
+	$phongexponenttexture "models/humans/maintenance_bmcer_sep2025/worker_equipment_exponent"
+	$phongfresnelranges "[0.3 0.65 1]"
+	$phongtint "[0.08 0.08 0.08]"
+	$phongboost 2 //1.01
+	$phongalbedoboost 1.01
+}

@@ -1,0 +1,24 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models\gibs_bmcer_sep2025/patch_usmc_gibs
+//	$lightwarptexture dev/identitylightwarp //Enabling this SOMEHOW also enables phong shading on this which should be impossible
+
+	$nocull 0
+	$alphatest 1
+	$halflambert 1
+	$ambientocclusion 1
+
+	$phong 1
+	$phongboost 2.5
+	$phongfresnelranges "[.4 .8 30]" //"[ 0.01 ]"
+	$phongexponent 20
+	$phongalbedotint 1
+
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale .35
+	$detailblendfactor 0.9
+	$detailblendmode 0
+
+}

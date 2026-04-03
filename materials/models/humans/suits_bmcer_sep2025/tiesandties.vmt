@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\suits_bmcer_sep2025/tiesandties"
+	"$bumpmap" "models/humans/suits_bmcer_sep2025/normalmap_flat"
+}

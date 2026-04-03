@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	"$surfaceprop" "default"
+	"$basetexture" "models\humans\marines_bmcer_sep2025\rg_straps"
+	"$bumpmap" "models\humans\marines_bmcer_sep2025\rg_straps_n"
+	"$Phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[.1 .5 1]"
+}

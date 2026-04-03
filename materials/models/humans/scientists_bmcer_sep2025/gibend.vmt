@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\scientists_bmcer_sep2025/gibend"
+	"$halflambert" 1
+	"$surfaceprop" "flesh"
+	"$nocull" 1
+	"$alphatest" 1
+//	"$translucent" 1
+
+    "$model" 1
+
+}

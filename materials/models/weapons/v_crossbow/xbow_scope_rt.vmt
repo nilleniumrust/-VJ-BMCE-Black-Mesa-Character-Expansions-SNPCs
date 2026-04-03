@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	$basetexture 	"models\weapons\v_crossbow\xbow_scope_fade"
+	$basetexturetransform "center .5 .5 scale 1.25 1.25 rotate 0 translate 0 0"
+
+	$detail 		"_rt_FullFrameFB" 
+	$detailscale 1
+	$detailblendfactor 0.017
+	$detailblendmode 5
+	
+    	$model 1
+
+	$detailtexturetransform "center .5 .5 scale .18 .18 rotate 0 translate 0 0"
+	$translucent "1"
+	$additive "1"
+
+}

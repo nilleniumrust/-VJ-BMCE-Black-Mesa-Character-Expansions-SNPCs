@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/marines_bmcer_sep2025/gears_shared_diffuse"
+	"$bumpmap" "models/humans/marines_bmcer_sep2025/gears_shared_normalbump"
+
+	"$phong" "1"				//normal has no specular, so no phong
+	"$phongexponent" "5"
+	"$phongboost"	"0.25"
+	"$phongfresnelranges"	"[.5 1 5]"
+
+
+//"Proxies" 
+//        { 
+//               "EntityRandom" 
+//                               { 
+//                                "scale" "24" 
+//                                "resultVar" "$frame" 
+//                                 } 
+//       }
+
+}

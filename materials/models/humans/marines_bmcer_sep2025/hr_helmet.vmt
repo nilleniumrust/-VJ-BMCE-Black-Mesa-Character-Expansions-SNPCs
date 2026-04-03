@@ -1,0 +1,33 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/marines_bmcer_sep2025/hr_helmet"
+	$bumpmap "models/humans/marines_bmcer_sep2025/hr_gasmask_normal"
+	$surfaceprop Plastic
+
+	$nocull 1
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.01 0.01 0.01]"
+	$envmapsaturation 0
+
+	$phong 1
+	$phongfresnelranges "[0.5 0.75 1]"
+	//$phongexponent 10
+	$phongexponenttexture "models/humans/marines_bmcer_sep2025/hr_helmet_exponent"
+	$phongalbedotint 1
+	$phongboost 0.8
+	
+	
+	//	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+	
+}

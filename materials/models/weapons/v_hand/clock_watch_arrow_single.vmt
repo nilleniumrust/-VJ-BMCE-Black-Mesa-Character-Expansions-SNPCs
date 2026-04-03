@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_hand\clock_watch_arrow_single"
+	"$alphatest" 1
+	"%keywords" "bms"
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	
+}

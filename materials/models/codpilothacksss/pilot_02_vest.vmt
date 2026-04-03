@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/CODpilothacksss/pilot_02_vest"
+
+        "$bumpmap" "models/CODpilothacksss/pilot_vest_normal"
+	$nocull 1
+
+	$phong 1
+	$phongfresnelranges "[0.4 0.8 30]"
+	$phongexponent 7
+	$phongboost .5
+
+	$rimlight 1
+	$rimlightexponent 80
+	$rimlightboost 0.1
+	
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	$detailscale 3.5
+	$detailblendfactor 0.45
+	$detailblendmode 0
+}

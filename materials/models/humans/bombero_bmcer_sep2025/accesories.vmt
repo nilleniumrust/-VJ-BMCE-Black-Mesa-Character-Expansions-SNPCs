@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/humans/bombero_bmcer_sep2025/accesories"
+	"$bumpmap" "models/humans/bombero_bmcer_sep2025/accesories_n"
+	"$surfaceprop" "plastic"
+//	"$alphatest" "1"
+	"$model" "1"
+	"$phong"     "1"
+	// "$phongexponent"   "20"
+	"$phongboost"   "20"
+	"$phongfresnelranges"	"[.5 1 11]"
+	"$phongalbedotint" "1"
+	$nocull 1
+	
+//Restored cubemaps
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]" //.2 .2 .2
+	
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 5
+        $detailblendfactor 0.8
+        $detailblendmode 0
+}

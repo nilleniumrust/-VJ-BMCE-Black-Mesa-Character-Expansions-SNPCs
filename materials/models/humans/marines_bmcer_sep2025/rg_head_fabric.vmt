@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+
+	"$surfaceprop" "metal"
+	"$basetexture" "models\humans\marines_bmcer_sep2025\rg_head"
+	"$bumpmap" "models\humans\marines_bmcer_sep2025\rg_head_n"
+	"$Phong" "1"
+	"$phongexponent" "10" //.25
+	"$phongboost" "25" //.5
+	"$phongfresnelranges" "[.1 .5 1]"
+	
+	"$phongalbedotint" "1"
+	"$phongexponenttexture" "models\ninja_bmcer_sep2025/L4D2/exp"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.01 .01 .01]"
+}

@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/glasses_shared_d"
+	"$bumpmap" "models/humans/scientists_bmcer_sep2025/glasses_d_normal"
+	"$basealphaenvmapmask" "0"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "0"
+	"$envmaptint" "[.05 .05 .05]"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongboost"	"10"
+	"$phongexponent"   "100"
+//	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongfresnelranges"	"[.5 1 11]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" "1"	               // Boost for ambient cube component of rim lighting
+
+    "$model" 1
+
+}

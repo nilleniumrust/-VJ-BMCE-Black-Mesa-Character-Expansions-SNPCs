@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\barney_bms\clock_watch_arrow"
+	"$alphatest" 1
+	"%keywords" "bms"
+	
+}

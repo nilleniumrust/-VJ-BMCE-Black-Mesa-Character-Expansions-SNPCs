@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\marines_bmcer_sep2025/engineergear"
+	"$bumpmap" "models\humans\marines_bmcer_sep2025/engineergear_nml"
+	"$phong" "1"
+	"$phongexponent" "4"
+//	"$phongalbedotint" "1"
+	"$phongboost" ".05"
+	"$phongfresnelranges"	"[.3 .3 .3]"
+//        "$lightwarptexture" 	"models\humans\marines_bmcer_sep2025/Clothes_wrp"
+	$halflambert 1
+}

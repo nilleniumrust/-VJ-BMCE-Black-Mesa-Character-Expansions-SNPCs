@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models/gibs_bmcer_sep2025/GEAR_bo_gibs"
+	 "$bumpmap" 			"models/humans/femassassin_alt_bmcer_sep2025/GEAR_normal"
+
+}

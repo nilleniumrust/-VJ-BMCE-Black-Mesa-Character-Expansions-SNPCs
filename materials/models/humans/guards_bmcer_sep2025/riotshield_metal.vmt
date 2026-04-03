@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+$baseTexture "models\humans\guards_bmcer_sep2025/RiotShield_metal"
+
+$bumpmap "models\humans\guards_bmcer_sep2025/RiotShield_metal_normal"
+$phong 1
+$phongboost 8
+$phongexponent 50
+$phongfresnelranges "[.1 .4 2]"
+
+
+$normalmapalphaenvmapmask 1
+$envmap env_cubemap
+$envmapfresnel 1
+$envmapFresnelMinMaxExp "[0 5 .4]"
+$envmaptint "[.25 .25 .25]" //.5 .5 .5
+$phongalbedotint 1
+//$detail "models/infected/hunter/hunter_01_detail.vtf"
+$detailscale "1.75"
+$detailblendfactor .001 
+$detailblendmode 0
+$detailAmount 0
+}

@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+//=====================================================
+//	To view the formatting of this vmt in proper,
+//	Please Open this file in Notepad ++ 
+//=====================================================
+
+	"$baseTexture" 				"models\zombies_bmcer_sep2025/zscient_h"
+	"$bumpmap" 					"models\zombies_bmcer_sep2025/zscient_hn"
+	"$surfaceprop" 				"flesh"
+	"$multipass" 				"1"
+	
+	"$model" 					"1"
+
+	"$phong"					"1"
+	"$phongboost"				"10"				// Higher boost values are used to compensate for phongalbedotint implementation.
+	"$phongfresnelranges"		"[.18 .4 1]"
+
+	"$phongexponent"			"15"									
+	"$phongalbedotint" 			"1"									// - Tints the phong reflection by the color of the $basetexture.
+	"$phongexponenttexture"		"models/zombies_bmcer_sep2025/zscient_h_exp"		// - $phongexponenttexture must exist for $phongalbedotint to work.	
+																	// - Red channel values determines phongexponent amount. 
+																	// - Green channel values determines phong tint amount.
+	
+	"$halflambert"				"1"
+
+// Rim lighting parameters
+
+	"$rimlight"					"1"		// To enable rim lighting (requires phong)
+	"$rimlightexponent" 		"33"	// Exponent for phong component of rim lighting
+	"$rimlightboost" 			"1"		// Boost for ambient cube component of rim lighting
+
+//	"$detail" 					"effects/models/model_blood_red.vtf"
+//	"$detailscale" 				"5"
+//	"$detailblendfactor" 		"0.0"
+//	"$detailblendmode" 			"0"
+
+    "$detail" 					"detail\noise_detail_01" // e.g. for brickwork, concrete...
+	"$detailscale" 				"7.74"
+	"$detailblendfactor"		"0.8"
+	"$detailblendmode"			"0"
+
+//	Proxies
+//	{
+//		ModelDetailFx
+//		{
+//		}
+//	}
+}

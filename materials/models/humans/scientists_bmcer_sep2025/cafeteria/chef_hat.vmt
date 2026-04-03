@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans\scientists_bmcer_sep2025\cafeteria/chef_hat"
+	"$bumpmap" "models/humans\scientists_bmcer_sep2025\cafeteria/chef_hat_n"
+	"$surfaceprop" "Flesh"
+	$detail models\humans\guards_bmcer_sep2025/clothes
+	"$detailscale"        "2.5"
+	"$detailblendfactor"  "0.5" //.4
+	"$detailblendmode"    "0"
+	
+    	$phong "1"
+    	$phongexponent "1"
+    	$phongboost "1" //.1
+    	$phongfresnelranges "[ .05 .1 .2]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "0.1" //.2
+	"$rimlightexponent" "4"
+$halflambert 1
+}
+

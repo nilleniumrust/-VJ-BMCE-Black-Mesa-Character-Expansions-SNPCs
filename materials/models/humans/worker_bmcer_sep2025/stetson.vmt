@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+$baseTexture "models\humans\worker_bmcer_sep2025\stetson"
+$bumpmap "models\humans\worker_bmcer_sep2025\stetson_normal"
+$phong 1
+$phongboost "7.4" //1.4
+$phongexponent 12
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+}

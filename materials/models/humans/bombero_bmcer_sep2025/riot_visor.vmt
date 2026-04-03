@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/humans/bombero_bmcer_sep2025/riot_visor"
+	"$translucent" "1"	
+           "$nodecal" "1"
+	"$envmap"	env_cubemap
+	"$envmaptint" "[2.01 1.60 .22]"
+//	"$envmaptint" "[.8 .8 .75]"	//.8 .8 .75
+//	"$envmapcontrast" "1"
+//	"$envmapsaturation" ".5" 
+//	"$mostlyopaque" 1
+//	"$additive" 1`
+}

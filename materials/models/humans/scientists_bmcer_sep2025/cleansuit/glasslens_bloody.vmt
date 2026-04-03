@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/humans/scientists_bmcer_sep2025/cleansuit/glasslens_bloody"
+	"$translucent" 1
+	"$envmapcontrast" "1"
+	"$model" 1
+	"$halflambert" 1
+
+}

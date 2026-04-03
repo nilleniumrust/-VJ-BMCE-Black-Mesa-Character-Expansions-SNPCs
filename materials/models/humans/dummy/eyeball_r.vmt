@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/humans/dummy/eyeball_r"
+	//"$iris" "models/CODpilothacksss/pupil_r"
+	"$halflambert" 1
+}

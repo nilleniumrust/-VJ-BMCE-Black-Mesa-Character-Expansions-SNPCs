@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/v_hand/clock_watch_d_clean"
+	$bumpmap "models/weapons/v_hand/clock_watch_n"
+
+	$phong 1
+	$phongexponenttexture "models/weapons/v_hand/clock_watch_spec"
+	$phongfresnelranges "[0.5 0.75 1]"
+	$phongboost 0.5
+	$phongalbedoboost 1.01
+"$HALFLAMBERT_GBUFFER_OFF" "1"
+	$model 1
+}
